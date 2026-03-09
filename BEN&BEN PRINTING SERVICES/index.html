@@ -1,0 +1,162 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ben&Ben Printing · scan · copy · ID</title>
+        <!-- Font Awesome 6 (free) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="dark-mode">
+        <!-- NAVIGATION + THEME TOGGLE + LANG SWITCHER -->
+        <header>
+            <nav class="navbar">
+                <!-- PROFESSIONAL LOGO with icon and custom type -->
+                <div class="logo">
+                    <i class="fas fa-print"></i> 
+                    <span class="logo-ben">Ben&Ben</span>
+                    <span class="logo-printing">PRINTING</span>
+                </div>
+                <div class="nav-right">
+                    <div class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                        <div class="toggle-ball"></div>
+                    </div>
+                    <div class="lang-switch">
+                        <button id="lang-en" class="lang-btn active-lang">EN</button>
+                        <span class="lang-divider">|</span>
+                        <button id="lang-tl" class="lang-btn">TL</button>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#" id="nav-home" class="active-link">Home</a></li>
+                        <li><a href="#services-section" id="nav-services">Services</a></li>
+                        <li><a href="#about-section" id="nav-about">About</a></li>
+                        <li><a href="#contact-section" id="nav-contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- HERO SECTION with premium background image (replacing gray) -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 id="hero-title">YOUR PRINT, SCAN,<br>LAMINATE & ID HUB</h1>
+                <p id="hero-sub">mabilis • malinis • maasahan</p>
+                <!-- view services button removed as per earlier instruction -->
+            </div>
+            <div class="hero-scroll-hint">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- SERVICE HIGHLIGHTS (premium icons) -->
+        <section id="services-section" class="services-strip">
+            <h2 class="section-title" id="services-title">Our Premium Services</h2>
+            <div class="service-icons-container">
+                <div class="service-icon-card" data-service="print">
+                    <i class="fas fa-print"></i>
+                    <span id="service-print">Printing</span>
+                </div>
+                <div class="service-icon-card" data-service="scan">
+                    <i class="fas fa-copy"></i>
+                    <span id="service-scan">Scanning</span>
+                </div>
+                <div class="service-icon-card" data-service="xerox">
+                    <i class="fas fa-photo-film"></i>
+                    <span id="service-xerox">Xerox</span>
+                </div>
+                <div class="service-icon-card" data-service="id">
+                    <i class="fas fa-id-card"></i>
+                    <span id="service-id">Photo ID</span>
+                </div>
+                <div class="service-icon-card" data-service="laminate">
+                    <i class="fas fa-layer-group"></i>
+                    <span id="service-lam">Laminating</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- REDESIGNED ABOUT SECTION (modern cards, clean layout, no gray) -->
+        <section id="about-section" class="about-section">
+            <div class="about-header">
+                <h2 id="about-title"><i class="fas fa-circle-info"></i> About</h2>
+                <p id="about-sub">Your trusted neighborhood print shop since 2020</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3 id="about-fast">Fast turnaround</h3>
+                    <p id="about-fast-desc">Most orders ready in 15 minutes. Rush available.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-medal"></i>
+                    <h3 id="about-quality">quality guaranteed</h3>
+                    <p id="about-quality-desc">Professional grade prints, crisp scans, durable lamination.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-tag"></i>
+                    <h3 id="about-price">transparent prices</h3>
+                    <p id="about-price-desc">No hidden fees. What you see is what you pay.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-camera-retro"></i>
+                    <h3 id="about-id">ID experts</h3>
+                    <p id="about-id-desc">Government-compliant IDs, passport pics, and more.</p>
+                </div>
+            </div>
+            <div class="about-story">
+                <i class="fas fa-quote-left"></i>
+                <p id="about-story">We started with one printer and a dream. Today we serve hundreds of happy customers daily — but we still treat every page like it's our first.</p>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION (clean) -->
+        <section id="contact-section" class="contact-section">
+            <h2 id="contact-title"><i class="fas fa-envelope"></i> Contact us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3><i class="fas fa-map-pin"></i> <span id="contact-visit">Visit our shop</span></h3>
+                    <p id="contact-address">123 P. Gomez St., San Juan</p>
+                    <p><i class="fas fa-phone-alt"></i> +63 9942380459</p>
+                    <p><i class="fas fa-envelope"></i> kaevren.solmere@gmail.com</p>
+                    <p><i class="fas fa-print"></i> <span id="contact-xerox">Xerox & photocopy available</span></p>
+                    <div class="hours">
+                        <h4><i class="fas fa-clock"></i> <span id="hours-title">Open hours</span></h4>
+                        <p id="hours-weekdays">Mon-Fri: 8:00 AM – 7:00 PM</p>
+                        <p id="hours-sat">Saturday: 9:00 AM – 5:00 PM</p>
+                        <p id="hours-sun">Sunday: closed</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="email-form">
+                        <input type="text" id="name" placeholder="Your name" required>
+                        <input type="email" id="email" placeholder="Email address" required>
+                        <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                        <button type="submit" id="send-btn"><i class="fas fa-paper-plane"></i> <span id="send-text">Send message</span></button>
+                        <p class="form-note" id="form-note">* we'll reply asap</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>© 2025 Ben&Ben Printing Services — <span id="footer-tag">quality prints, quality service</span></p>
+        </footer>
+
+        <!-- MODAL for service prices -->
+        <div id="priceModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h3 id="modal-title">Printing prices</h3>
+                <div class="modal-prices" id="modal-prices-container"></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+    </html>
